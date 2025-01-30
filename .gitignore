@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data files
+*.shp
+*.shx
+*.dbf
+*.prj
+*.qpj
+*.tif
+*.tiff
+*.geojson
+*.gpkg
+*.csv
+*.xlsx
+
+# Exceptions
+!src/data/sample/*
