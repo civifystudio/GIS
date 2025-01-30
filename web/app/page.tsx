@@ -1,9 +1,5 @@
 import dynamic from 'next/dynamic'
-
-const Map = dynamic(() => import('@/components/Map'), {
-  loading: () => <p>Loading Map...</p>,
-  ssr: false
-})
+import MapWrapper from '@/components/MapWrapper'
 
 export default function Home() {
   return (
@@ -35,9 +31,7 @@ export default function Home() {
         </div>
 
         {/* Map Container */}
-        <div className="flex-1">
-          <Map />
-        </div>
+        <MapWrapper />
       </div>
     </div>
   )
